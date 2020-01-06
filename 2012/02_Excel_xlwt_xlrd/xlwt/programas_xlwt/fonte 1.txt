@@ -1,0 +1,5 @@
+http://scienceoss.com/write-excel-files-with-python-using-xlwt/
+
+dica :
+
+extensão ods -> libreoffice e xls -> excel

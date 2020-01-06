@@ -1,0 +1,5 @@
+http://herberthamaral.com/2010/02/criando-web-crawlers-em-python-parte-i/
+
+urllib2 -> http://www.voidspace.org.uk/python/articles/urllib2.shtml
+
+video bom -> http://www.youtube.com/watch?v=B00MzlMvAzU

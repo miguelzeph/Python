@@ -1,0 +1,5 @@
+http://ark4n.wordpress.com/2009/08/26/lendo-arquivos-xls-com-python/
+
+http://www.python-excel.org/
+
+Dica : Só funciona para Excel 97-2003

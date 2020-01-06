@@ -1,0 +1,1 @@
+Para facilitar o trabalho ... coloque sempre a pagina no googlecrome e aperte F12 ... para ver o código

@@ -1,0 +1,1 @@
+A biblioteca XLWT , W = writing --> é para escrever em excel/libreoffice etc.

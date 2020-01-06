@@ -1,0 +1,3 @@
+http://www.saltycrane.com/blog/2010/02/using-python-write-excel-openoffice-calc-spreadsheet-ubuntu-linux/
+
+http://pypi.python.org/pypi/xlwt

@@ -1,0 +1,1 @@
+Biblioteca xlrd , R = read --> Leitura
