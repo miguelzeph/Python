@@ -1,0 +1,5 @@
+http://www.py2exe.org/index.cgi/MatPlotLib
+
+ESSA FONTE QUE COPIE O BUG
+
+http://stackoverflow.com/questions/11062417/py2exe-with-matplotlib-numpy-and-pylab
