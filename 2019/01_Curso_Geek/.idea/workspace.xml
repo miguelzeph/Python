@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1861e891-c744-495d-bcbf-c678a51d6aba" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula3_with.py" />
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula4_escrevendo.py" />
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/novo.txt" />
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula5_modos.py" />
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula6_OS.py" />
+        <option value="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula7_OS_manipulação.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula1_iterators_iteraveis.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula2_criando_proprio_loop.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula3_iterador_customizado.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula4_geradores.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula5_teste_memoria.py" />
+        <option value="$PROJECT_DIR$/sec 14_Interadores_Geradores/aula6_teste_velocidade.py" />
+        <option value="$PROJECT_DIR$/sec 15_Decoradores_Python/aula1_funcao_maior_grandeza.py" />
+        <option value="$PROJECT_DIR$/sec 15_Decoradores_Python/aula2_decoradores.py" />
+        <option value="$PROJECT_DIR$/sec 15_Decoradores_Python/aula3_decorators_assinatura.py" />
+        <option value="$PROJECT_DIR$/sec 15_Decoradores_Python/aula4_preservando_metadata.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula3 - Atributos.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula4_metodos.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula5_Objetos.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/Cartas.py" />
+        <option value="$PROJECT_DIR$/sec 12 - Modulos_Python/teste.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/veiculo.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/main.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/carro.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula1_Heranca.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula2_Propriedades.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula3_super.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula4_herança_Multipla.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula5_Metodo_ordem.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula6_polimorfismo.py" />
+        <option value="$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula7_Metodos_Magicos.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/homem.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/jogo.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/teste.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/personagem.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/homem_mulher.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/teste.py" />
+        <option value="$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_1.py" />
+        <option value="$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_2.py" />
+        <option value="$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_6.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula6_locals.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula6_locals_globals.py" />
+        <option value="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula7_criando_objetos_array.py" />
+        <option value="$PROJECT_DIR$/treino_pri.py" />
+        <option value="$PROJECT_DIR$/sec 18_ variavel_condicao if else/variavel_if_else.py" />
+        <option value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/01_Introducao.py" />
+        <option value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/02_variavel_if_else.py" />
+        <option value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/03_For.py" />
+        <option value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/04_Generators.py" />
+        <option value="$PROJECT_DIR$/02_Criando_variavel/01_criando_variavel.py" />
+        <option value="$PROJECT_DIR$/02_Criando_variavel/02_criando_dicionario.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Curso_Geek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_Geek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso_Geek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_Geek" type="462c0819:PsiDirectoryNode" />
+              <item name="02_Criando_variavel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso_Geek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_Geek" type="462c0819:PsiDirectoryNode" />
+              <item name="sec 16 - POO_Prog_Orientada_obj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso_Geek" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso_Geek" type="462c0819:PsiDirectoryNode" />
+              <item name="sec 17_Heranca_Polimorfismo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Estudos_Malware" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos" />
+      <recent name="$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/urls" />
+      <recent name="$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula1_leitura_arquivo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/sec 12 - Modulos_Python/aula6_dunder" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.02_criando_dicionario">
+    <configuration name="01_criando_variavel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Curso_Geek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Criando_variavel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Criando_variavel/01_criando_variavel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_criando_dicionario" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Curso_Geek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02_Criando_variavel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_Criando_variavel/02_criando_dicionario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_For" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Curso_Geek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/03_For.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_Generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Curso_Geek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/04_Generators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="variavel_if_else" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Curso_Geek" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sec 18_ variavel_condicao if else" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sec 18_ variavel_condicao if else/variavel_if_else.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.02_criando_dicionario" />
+        <item itemvalue="Python.01_criando_variavel" />
+        <item itemvalue="Python.04_Generators" />
+        <item itemvalue="Python.03_For" />
+        <item itemvalue="Python.variavel_if_else" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1861e891-c744-495d-bcbf-c678a51d6aba" name="Default Changelist" comment="" />
+      <created>1549663116065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549663116065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2570533" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41883117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32874355" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984326" weight="0.38961038" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015674" side_tool="true" weight="0.39123377" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.5487013" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.2570533" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41883117" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32874355" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984326" weight="0.38961038" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015674" side_tool="true" weight="0.39123377" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.7711039" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="int(a)/(b)" />
+        <watch expression="int(a)/(b)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>print(dividir(100,20))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>teste</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sec 11 - debug/aula2 - raise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 14_Interadores_Geradores/aula3_iterador_customizado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 14_Interadores_Geradores/aula4_geradores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 14_Interadores_Geradores/aula5_teste_memoria.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 14_Interadores_Geradores/aula6_teste_velocidade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 15_Decoradores_Python/aula1_funcao_maior_grandeza.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 15_Decoradores_Python/aula2_decoradores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 15_Decoradores_Python/aula3_decorators_assinatura.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="74" column="61" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/functools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 15_Decoradores_Python/aula4_preservando_metadata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula1_introducao.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/sec 12 - Modulos_Python/teste.py" />
+    <entry file="file://$PROJECT_DIR$/sec 12 - Modulos_Python/aula4_modulo_customizado/aula4_modulo_customizado.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#1#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/veiculo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/veiculos/carro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula1_Heranca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula2_Propriedades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="120" column="39" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula3_super.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula4_herança_Multipla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula5_Metodo_ordem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula6_polimorfismo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 17_Heranca_Polimorfismo/aula7_Metodos_Magicos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/Cartas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="82" column="19" lean-forward="true" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/teste.py" />
+    <entry file="file://$PROJECT_DIR$/sec 8 - Functions/aula7_kwargs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula2 - Classe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 13_Leitura_escritura_arquivos/aula6_OS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula3 - Atributos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/homem_mulher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/personagem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#1#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula5_Objetos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula4_metodos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/jogo/jogo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/daniel_1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicios_Python_Geek/exercicio_daniel/ex_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula7_criando_objetos_array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/aula6_locals_globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treino_pri.py" />
+    <entry file="file://$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/04_Generators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 10 - lambda e func integradas/aula4_reduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 10 - lambda e func integradas/aula2_maps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/03_For.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec 16 - POO_Prog_Orientada_obj/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/02_variavel_if_else.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Meu_Flat_is_better_than_nested/01_Introducao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Criando_variavel/02_criando_dicionario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Criando_variavel/01_criando_variavel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

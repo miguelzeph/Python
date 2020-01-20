@@ -1,0 +1,45 @@
+{% extends 'base.html' %} <!-- Sempre em primeiro... -->
+{% load bootstrap %}
+
+
+{% block title %} Página de Login {% endblock %}
+
+
+{% block main %}
+
+    <div class="row">
+
+        <div class="col-6">
+             <h2>Login</h2>
+
+                <form method = 'post'>
+                    {% csrf_token %}
+                    <!-- {{ form.as_p }} ... Antes do Bootstrap estava assim-->
+                    {{ form|bootstrap }}
+
+                    <button type = "submit" class="btn btn-success">Login</button>
+                </form>
+
+        </div>
+
+        <div class="col-sm">
+        </div>
+
+        <div class="col-sm">
+        </div>
+
+    </div>
+{% endblock %}
+
+
+
+
+{% block footer %}
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Desenvolvimento em Django 2.x.</span>
+      </div>
+    </footer>
+
+{% endblock %}

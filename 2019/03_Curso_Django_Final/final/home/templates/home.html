@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+
+{% block title %} MINHA PAGINA {% endblock %}
+
+
+{% block main %}
+
+
+    <div class="row">
+
+        <div class="col-sm">
+        </div>
+
+        <div class="col-6">
+          <h1>Seja bem vindo</h1>
+        </div>
+
+        <div class="col-sm">
+            {% if user.is_authenticated %}
+
+                <p>Olá {{ user.username }}</p>
+
+                <script type = "text/javascript">alert("Bem vindo {{user.username}}")</script>
+
+                <a href = "{% url 'logout' %}">Sair</a>
+
+
+            {% else %}
+
+                <a href = "{% url 'login' %}" class = 'btn btn-info'>Entrar</a>
+
+                <script type = "text/javascript">alert("Faça o Login para exibir seu nome")</script>
+
+            {% endif %}
+        </div>
+
+    </div>
+
+{% endblock %}
+
+
+{% block footer %}
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Desenvolvimento em Django 2.x.</span>
+      </div>
+    </footer>
+
+{% endblock %}

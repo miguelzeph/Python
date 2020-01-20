@@ -1,0 +1,74 @@
+
+
+{% extends 'base.html' %}
+
+
+{% block title %} ADMINISTRAÇÃO {% endblock %}
+
+
+{% block main %}
+
+    <div class = "row">
+        <form action = "">
+            <input type = "text" name = "pesquisa">
+            <button>Pesquisar</button>
+        </form>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col">
+
+        </div>
+
+        <div class="col-6">
+            <h3>Listagem de Pessoas</h3>
+            <ul class="list-group">
+            {% for person in persons %}
+
+                <li class="list-group-item">
+
+                    <a href = "{% url 'person_update' person.id%}">({{person.id}}) {{ person.first_name }}</a>
+                    <a href = "{% url 'person_delete' person.id%}" class = "trash-item">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </a>
+
+
+                </li>
+
+            {% endfor %}
+            </ul>
+
+            <br>
+
+            <a href="{% url 'person_new' %}" class="btn btn-primary">Novo Cliente</a>
+
+        </div>
+
+        <div class="col">
+
+            {% if user.is_authenticated %}
+            <p>Olá {{ user.username }} <a href="{% url 'logout' %}" class = "btn btn-info">Sair</a> </p>
+
+            {% endif %}
+
+
+        </div>
+
+    </div>
+
+
+{% endblock %}
+
+
+
+{% block footer %}
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Desenvolvimento em Django 2.x.</span>
+      </div>
+    </footer>
+
+{% endblock %}
