@@ -1,0 +1,3 @@
+http://sites.google.com/a/chromium.org/chromedriver/downloads
+
+obs: essa dica peguei do curso da UDEMY na instalação do LINUX (https://www.udemy.com/course/criando-robos-em-python/)
