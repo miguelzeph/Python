@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang = 'en' dir = '1tr'>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title></title>
+
+    </head>
+    <body>
+        <!--Acessando o FOR tem que ter PORCENTAGEM + CHAVES-->
+        
+        <ul>
+            {%for item in mylist%}
+            <li>{{item}} - Contem a letra: {{myletras[item]}}</li>
+            {%endfor%}
+        </ul>
+
+        {%if "a" in myletras%}
+            <p>Existe a letra 'a' dentro da lista</p>
+        {%elif 'b' in myletras%}
+            <p>Porém existe o 'b'</p>
+        {%else%}
+            <p>Não existe a letra "a" e nem "b" dentro desta lista</p>
+        {%endif%}
+
+    </body>
+</html>

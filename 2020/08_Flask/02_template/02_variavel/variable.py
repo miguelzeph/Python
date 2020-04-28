@@ -5,6 +5,9 @@ from flask import (
 
 app = Flask(__name__)
 
+
+# Acessando variáveis---------------
+#No HTML você acessa o python com o Jinja {{}}
 @app.route('/')
 def index():
 
@@ -22,6 +25,9 @@ def index():
 		outra_variavel = meu_nome,
 		my_dict = dictionary
 		)
+#-------------------------------------
+
+
 
 if __name__ == '__main__':
 	app.run(debug = True)
