@@ -33,9 +33,9 @@ class InstagramBot:
         driver.find_element(By.XPATH,"//button[@class = 'aOOlW   HoLwm ']").click()
         time.sleep(2)
         #Curtir todos da Página escolhida
-        self.curtir_fotos('datascientist')
+        self.curtir_fotos_tag('datascientist')
 
-    def curtir_fotos(self, hashtag):
+    def curtir_fotos_tag(self, hashtag):
         driver = self.driver
         driver.get('https://www.instagram.com/tags/'+hashtag+'/')
         time.sleep(5)
