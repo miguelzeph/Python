@@ -32,19 +32,94 @@ class InstagramBot:
         time.sleep(5)
         driver.find_element(By.XPATH,"//button[@class = 'aOOlW   HoLwm ']").click()
         time.sleep(2)
-        #Curtir todos da Página escolhida
-        self.curtir_fotos()
-        
-    def curtir_fotos(self, tag_hashtag =''):
+
+
+        #-----Curtir todos da Página escolhida-------
+        #self.curtir_fotos('https://www.instagram.com/explore/locations/280640861/faculdade-de-medicina-de-taubate/')
+
+        #-----Verificar Seguidores-------
+        self.follow()
+
+
+    def follow(self):
         driver = self.driver
 
-        if tag_hashtag != '':
-            driver.get('https://www.instagram.com/'+tag_hashtag)
+        #Acessar meu perfil
+        driver.get('https://www.instagram.com/datastorm29/')
 
-        else:
-            driver.get('https://www.instagram.com/')
+        time.sleep(2)
 
+        #----Seguidores -----
+
+        seguidores_button = driver.find_element(By.XPATH,"//a[@href ='/datastorm29/followers/']")
+        seguidores_button.click()
+
+        time.sleep(1.5)
+
+        #Rolar para baixo a barra de Seguidores
+        for i in range(0,5):
+            fBody  = driver.find_element_by_xpath("//div[@class='isgrP']")
+            driver.execute_script('arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight;', fBody)
+            time.sleep(1)
+
+        hrefs_seguidores = driver.find_elements(By.XPATH,'//a[@class = "FPmhX notranslate  _0imsa "]')
+        pic_hrefs_seguidores = [elem.get_attribute('href') for elem in hrefs_seguidores]
+
+
+        #Voltar pro meu perfil
+        driver.get('https://www.instagram.com/datastorm29/')
+
+
+        #-----Seguindo----
+
+        seguindo_button = driver.find_element(By.XPATH,"//a[@href ='/datastorm29/following/']")
+        seguindo_button.click()
+
+        time.sleep(2)
+
+        #Rolar para baixo a barra de seguindo
+        for i in range(0,30):
+            fBody  = driver.find_element_by_xpath("//div[@class='isgrP']")
+            driver.execute_script('arguments[0].scrollTop = arguments[0].scrollTop + arguments[0].offsetHeight;', fBody)
+            time.sleep(3)
+
+        hrefs_seguindo = driver.find_elements(By.XPATH,'//a[@class = "FPmhX notranslate  _0imsa "]')
+        pic_hrefs_seguindo = [elem.get_attribute('href') for elem in hrefs_seguindo]
+
+        nao_me_segue = list(set(pic_hrefs_seguindo)-set(pic_hrefs_seguidores))
+
+        print('Seu seguidores: ',len(pic_hrefs_seguidores))
+        print('Quem você segue: ',len(pic_hrefs_seguindo))
+        print('Quem não te segue:',len(nao_me_segue))
+
+        #xx = list(set(pic_hrefs_seguidores)-set(pic_hrefs_seguindo))
+        #print(xx)
+
+        for deletar in nao_me_segue:
+            time.sleep(6)
+
+            driver.get(deletar)
+
+            time.sleep(3)
+
+            button_seguir = driver.find_element(By.XPATH,"//span[@class ='vBF20 _1OSdk']")
+            button_seguir.click()
+
+            time.sleep(3)
+
+            try:
+                confirmar = driver.find_element(By.XPATH,"//button[@class ='aOOlW -Cab_   ']")
+                confirmar.click()
+                print('deletado')
+            except:
+                print('Ele te segue,  e você não o segue, logo foi adicionado')
             
+        
+    def curtir_fotos(self, url):
+        driver = self.driver
+        
+        driver.get(url)
+   
         #Tive que fazer isso, pois ai eu vou rolando para baixo e ao mesmo tempo
         #pegando as Imagens.
         total_pic_hrefs =[] 
@@ -52,7 +127,7 @@ class InstagramBot:
 
 
         #Rolar para baixo página
-        for i in range(0,3):
+        for i in range(0,1):
             driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
             time.sleep(2)
 
@@ -99,6 +174,6 @@ class InstagramBot:
             
                  
 
-miguel = InstagramBot('xxxx','xxx')
+miguel = InstagramBot('xxx','xxx')
 miguel.login()
 
