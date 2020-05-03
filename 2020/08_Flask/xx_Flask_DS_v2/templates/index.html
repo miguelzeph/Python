@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+
+{%block content%}
+    <div>
+        <h3>Converter temperatura de °C para °F </h3>
+
+        <form action = "{{url_for('calcular')}}" method = 'get'>
+            <label for = 'temp'>Temperatura: </label>
+            <input type = 'value' name = 'temperatura'>
+            <label for = 'temp'>°C </label>
+            <input type= "submit" name ="Submit form" value = 'Enviar'>   
+        </form>
+    </div>
+{%endblock%}
