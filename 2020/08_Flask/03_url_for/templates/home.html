@@ -1,0 +1,19 @@
+{%extends 'basic.html'%}
+
+{%block content%}
+
+<h1>O que está aqui dentro eu posso alterar...</h1>
+<br>
+<a href = "{{
+                url_for(
+                    'basic',
+                    name = 'miguel'
+                    )
+            }}">CLick aqui
+</a>
+
+<br>
+
+<a href = "{{url_for('static',filename = 'eu_2020.jpg')}}">IMAGEM</a>
+
+{%endblock%}
