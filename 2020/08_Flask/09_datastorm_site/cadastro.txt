@@ -1,0 +1,5 @@
+Nome: Miguel
+Sexo: M
+Cor: b
+Feedback: Olá, tenho 29 anos
+Termo: True

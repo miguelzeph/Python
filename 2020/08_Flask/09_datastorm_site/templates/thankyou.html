@@ -1,0 +1,33 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+{%for mess in get_flashed_messages()%}
+    <div class = 'alert alert-warning alert-dismissible fade show'>
+    <button type ='button' class = 'fase close' data-dismiss = 'alert' aria-label = 'Close'>
+    <span aria-hidden = 'true'>&times;</span><!--botão de fechar-->
+    </button>
+    {{mess}}
+    </div>
+{%endfor%}
+
+<div style = 'font-family:courier;font-size:20px;padding-left:50px;padding-top:100px;padding-bottom:100px'>
+    <h1> Thank you <strong>{{session['nome']}}</strong>, Here is the info you gave us:</h1>
+    <br>
+        <ul>
+            <li>Nome: {{session['nome']}}</li>
+            <li>Sexo: {{session['sexo']}}</li>
+            <li>Cor: {{session['cor']}}</li>
+            <li>Feedback: {{session['feedback']}}</li>
+            <li>Termo: {{session['termo']}}</li>
+            
+        </ul>
+    
+    <form method = 'POST'>
+            {{form.hidden_tag()}}
+            {{form.submit()}} 
+    </form>
+</div>
+
+
+{%endblock%}

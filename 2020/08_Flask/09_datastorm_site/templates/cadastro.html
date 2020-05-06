@@ -1,0 +1,24 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+<form class  = 'bg-secondary text-white' method = 'post' style = 'padding-top:20px;padding-left:20px;font-family:courier;font-size:20px;opacity: 1'>
+    <h1 style = 'padding-top:10px;padding-left:10px;font-family:courier;'>Faça o seu cadastro</h1>
+    {{form.hidden_tag()}}
+    {{form.nome.label}} {{form.nome}}
+    <br>
+    {{form.sexo.label}} {{form.sexo}}
+    <br>
+    {{form.cor.label}} {{form.cor}}
+    <br>
+    {{form.feedback.label}}
+    <br>
+    {{form.feedback(rows='5',cols='50')}}
+    <br>
+    {{form.termo.label}} {{form.termo}}
+    <br>
+    <p style = 'padding-bottom:20px;'>{{form.submit()}}</p>
+    
+    
+</form>
+{%endblock%}
