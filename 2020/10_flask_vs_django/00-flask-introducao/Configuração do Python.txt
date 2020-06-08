@@ -1,0 +1,25 @@
+﻿Para executar o Python 3 pelo CMD (Terminal do Windows) você deverá realizar as configurações descritas abaixo.
+
+* No Explorador de Arquivos do Windows clique com o botão direito do mouse em "Este Computador" e no submenu clique em "Propriedades".
+
+* No menu esquerdo escolha a opção "Configurações avançadas do sistema".
+
+* Na janela de Propriedades do Sistema clique no botão "Variáveis de Ambiente".
+
+* Na sessão "Variáveis do sistema" da janela "Variáveis de Ambiente" selecione a variável "Path" e clique em "Editar..."
+
+* Na janela "Editar a variável de ambiente" clique sobre o botão "Novo". Uma nova linha de edição será inserida, copie o endereço local de instalação do Python 3 na sua máquina, cole nessa linha, tecle "Enter" e clique em "OK". Repita o mesmo procedimento para o endereço do diretório "Scripts" que está contido dentro do diretório de instalação.
+
+Atenção: Se você já possuir uma outra versão mais antiga do Python configurada na variável "Path" você deverá selecionar uma a uma as linhas inseridas com a nova versão e através do botão "Mover para Cima" colocar as duas linhas acima das linhas com a versão anterior para que o Python 3x seja a sua versão padrão.
+(No final do procedimento você deverá possuir as linhas “C:/endereço_da_instalação/Python3x” e “C:/endereço_da_instalação/Python3x/Scripts”) na variável “Path”.
+
+* Clique em "OK" na janela de "Variáveis de Ambiente" e na janela de "Propriedades do Sistema" para confirmar.
+
+* Por último reinicie o seu computador para efetivar as alterações no sistema.
+
+Obs¹: se você não souber o diretório de instalação do Python 3, basta abrir o IDLE e no menu "File" clicar sobre "Open..." que por padrão será aberto o diretório de instalação. Basta copiar o "Path" do diretório raiz da barra de endereço da janela “Abrir” e colar no "Path" das variáveis de ambiente. Depois com a mesma janela "Abrir" dê um duplo clique no diretório "Scripts" e copie também este endereço para acrescentá-lo a sua variável de ambiente "Path" como explicado acima.
+
+Para saber se a configuração foi bem-sucedida abra o seu terminal do Windows (CMD), digite o comando "python --version" (sem as aspas) e tecle "Enter". Se na linha seguinte for exibida a versão do Python 3x que você instalou a configuração terá sido bem-sucedida.
+
+Obs²: Você também poderá atualizar a versão do PIP (Gerenciador de Pacotes do Python) para utilizar bibliotecas de terceiros na sua instalação atual. Para atualizar o PIP, abra o terminal (CMD) e digite o comando "python -m pip install --upgrade pip" (sem as aspas) e tecle "Enter".
+Depois digite o comando "pip --version" (sem as aspas) e tecle "Enter", se na linha seguinte for exibida a versão do PIP que você acabou de instalar então a sua atualização do PIP terá sido bem-sucedida.

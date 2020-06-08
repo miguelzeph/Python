@@ -1,0 +1,13 @@
+Para a instalação da última versão do Python no Windows, siga os passos a seguir:
+
+1 – Acesse o site https://www.python.org/
+
+2 – Na aba “Downloads” clique sobre o menu “Windows”.
+
+3 – No lado esquerdo você verá as últimas versões estáveis e no lado direito as versões mais atuais de pré-lançamento. Em “Pre-releases” clique em Download “Windows x86-64 executable installer” do tópico superior referente a última versão ou no link para download compatível com o seu sistema.
+
+4 – Na janela de confirmação clique em “Salvar arquivo”.
+
+5 – Dê um duplo clique sobre o executável que foi baixado para a sua máquina e na janela de instalação marque as opções: “Install launcher for all users (recommended)” e “Add Python 3.x to PATH”.
+
+6 – Clique em “Install Now” e permita que o aplicativo faça alterações no seu dispositivo. Ao término do processo clique em “Close” e a instalação estará concluída.

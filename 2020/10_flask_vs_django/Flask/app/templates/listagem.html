@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Acentuação Br-->
+    <meta charset="UTF-8">
+
+    <!--exibição 100% para dispositivos com telas grandes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Impedir o Armazenamento de Caches nas págnas HTML-->
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <!--Importação da Biblioteca jsPDF ... gerar pdf com js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" 
+    integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" 
+    crossorigin="anonymous"></script>
+
+    <title>Listagem</title>
+</head>
+<body>
+    <ul>
+    {%for pessoa in pessoas%}
+        <li>
+        {{pessoa.id}}-{{pessoa.nome}}-{{pessoa.sexo}}-{{pessoa.salario}}
+        </li>
+    {%endfor%}
+    </ul>
+</body>
+</html>
