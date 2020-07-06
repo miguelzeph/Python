@@ -3,4 +3,9 @@ from django.contrib import admin
 # Register your models here.
 from .models import Post
 
-admin.site.register(Post)
+
+class PostAdmin(admin.ModelAdmin):
+    list_display=['title','sub_title','approved']
+    search_fields = ['title','sub_title']
+
+admin.site.register(Post,PostAdmin)

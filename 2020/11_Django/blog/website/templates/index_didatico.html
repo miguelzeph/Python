@@ -1,0 +1,22 @@
+<h1>TESTE</h1>
+
+{{ name }}
+
+<ol>
+{% for tecnologia in lista_tecnologia %}
+    <li>{{ tecnologia }}</li>
+{% endfor %}
+</ol>
+
+
+<ul>
+{%for post in posts%}
+    <li>
+        <h3>{{post.title}}</h3>
+    
+        <h5>{{post.sub_title}}</h5>
+
+        <p>{{post.content}}</p>
+    </li>
+{%endfor%}
+</ul>

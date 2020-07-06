@@ -1,0 +1,23 @@
+{% extends 'index.html'%}
+
+{% block content %}
+
+
+
+<div id="main">
+
+    <!-- One -->
+        <section id="one">
+            <header class="major">
+                <h2>{{post.title}}</h2>
+                <h4>{{post.sub_title}}</h4>
+            </header>
+            <p>{{post.content}}</p>
+            <ul class="actions">
+                <li><a href="#" class="button">Learn More</a></li>
+            </ul>
+        </section>
+</div>
+
+
+{% endblock %}
