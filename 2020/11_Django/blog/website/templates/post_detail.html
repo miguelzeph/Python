@@ -12,6 +12,11 @@
                 <h2>{{post.title}}</h2>
                 <h4>{{post.sub_title}}</h4>
             </header>
+            {%if post.imagem%}
+                <img style = 'width:300px;' src = "{{post.imagem.url}}">
+            {%else%}
+                <h2>SEM IMAGEM...</h2>
+            {%endif%}
             <p>{{post.content}}</p>
             <ul class="actions">
                 <li><a href="#" class="button">Learn More</a></li>

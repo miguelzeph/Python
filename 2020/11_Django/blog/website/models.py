@@ -8,6 +8,7 @@ class Post(models.Model):
     content = models.TextField()
 
     approved = models.BooleanField(default=True)
+    imagem = models.ImageField(upload_to='posts', null = True, blank = True)
 
     # Agora no Admin ele mostra como Título... e não "Post Object (1) ... "
     def __str__(self):
