@@ -1,0 +1,16 @@
+{%extends 'base.html'%}
+
+{%block content%}
+
+<div class = 'container'>
+    <h2>Login</h2>
+    <form method = 'POST' action ="{{url_for('login')}}">
+        <label>Username</label>
+        <input type = 'text' name = 'username' class="form-control">
+        <label>Password</label>
+        <input type = 'password' name = 'password' class="form-control">
+        <br>
+        <button name = 'submit' type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{%endblock%}
