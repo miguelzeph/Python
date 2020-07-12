@@ -8,7 +8,10 @@ mongo = PyMongo(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    log = False
+    if 'log' in session:
+        log = True
+    return render_template('index.html', log = log)
 
 @app.route('/registrar')
 def registrar():
@@ -17,7 +20,7 @@ def registrar():
 @app.route('/criar', methods = ['POST','GET'])
 def criar():
     if request.method == 'POST':
-        usuario = mongo.db.usuario
+        usuario = mongo.db.usuario # Cria uma Tabela "usuario" dentro do #TESTE_LOGIN
         add = {}
         for parametro in request.form:
             add[str(parametro)] = request.form[str(parametro)]
@@ -41,15 +44,33 @@ def criar():
             flash('Já existe este usuário','danger')
             return redirect(url_for('registrar'))
 
-    return redirect(url_for('index'))
+    return redirect(url_for('login'))
 
-@app.route('/login')
+@app.route('/login', methods = ['POST','GET'])
 def login():
-    return ''
+    if request.method == 'POST':
+        
+        usuario = mongo.db.usuario
+        if usuario.find_one({'nome':request.form['nome']}) is None:
+            flash('Usuário não cadastrado','danger')
+        else:
+            usuario_nome = usuario.find_one({'nome':request.form['nome']})
+            
+            if usuario_nome['senha'] == request.form['senha']:
+                session['log'] = True
+                flash('LOGADO','danger')
+                return redirect(url_for('index'))
+            else:
+                
+                flash('Senha Incorreta','danger') 
+    
+    return render_template('login.html')
+
 @app.route('/logout')
 def logout():
-    #session.clear()
-    return ''
+    #session.clear() # Remove tudo
+    session.pop('log') # Remove um
+    return render_template('index.html')
 
 
 
