@@ -6,17 +6,23 @@
 
 
 <form method = 'POST' action = "{{url_for('criar')}}" enctype='multipart/form-data'>
-    Nome: <input type = 'text' name = 'nome'>
-    Sobrenome: <input type = 'text' name= 'sobrenome'>
+    <label for = 'nome'> Nome: </label>
+    <input type = 'text' name = 'nome'>
+
+    <label for = 'sobrenome'> Sobrenome: </label>
+    <input type = 'text' name= 'sobrenome'>
     <br>
     <br>
-    Email: <input type='email' name = 'email'>
+    <label for = 'email'> Email: </label>
+    <input type='email' name = 'email'>
     <br>
     <br>
-    Sexo: <input type="radio" name="sexo" value="masculino" checked> Masculino <input type="radio" name="sexo" value="feminino"> Feminino
+    <label for = 'sexo'> Sexo: </label>
+    <input type="radio" name="sexo" value="masculino" checked> Masculino <input type="radio" name="sexo" value="feminino"> Feminino
     <br>
     <br>
-    Pretenção Salarial: <select name="salario">
+    <label for = 'salario'> Pretenção Salarial: </label>
+    <select name="salario">
         <option value="1000">R$ 1000,00</option>
         <option value="2000">R$ 2000,00</option>
         <option value="3000">R$ 3000,00</option>
@@ -24,11 +30,15 @@
     </select>
     <br>
     <br>
-    Senha: <input type = 'password' name = 'senha'>
-    Confirmar Senha: <input type = 'password' name ='senha_confirmar'>
+    <label for = 'senha'> Senha: </label>
+    <input type = 'password' name = 'senha'>
+
+    <label for = 'salario'> Confirmar Senha: </label>
+    <input type = 'password' name ='senha_confirmar'>
     <br>
     <br>
-    Foto de Perfil: <input type = "file" name = "imagem">
+    <label for = 'salario'> Foto de Perfil: </label>
+    <input type = "file" name = "imagem">
     <br>
     <br>
     <input type = "submit" value = "Submeter">  

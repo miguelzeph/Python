@@ -5,8 +5,17 @@
 <h1> Index Page </h1>
 
 {%if log == True%}
+<h3>Status: Logado</h3>
 <a href = '/logout'>Logout</a>
+
+
+<div>
+    <p>Nome: {{nome}}</p>
+    <a href = '{{url_for("file",filename = session["imagem_perfil"])}}'>Imagem</a>
+</div>
+
 {%else%}
+<h3>Status: Deslogado</h3>
 <a href = "{{url_for('registrar')}}">Registrar</a>
 <br>
 <a href = "/login">Logar</a>
