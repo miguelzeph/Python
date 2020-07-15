@@ -1,0 +1,37 @@
+{%extends 'base.html'%}
+{%block content%}
+
+
+<!---------- Executando----------->
+{% for i in range(0,2)%}
+<div id="app{{i}}">
+    [[message]] {{i}} <!--Vuejs-->
+    <br>
+    {{message}} {{i}} <!--Jinja2 (Flask)-->
+</div>
+{%endfor%}
+
+
+<!--------- Iniciando uma Instância chamada '#app'---------->
+<script>
+var app = new Vue({
+    el: '#app0',
+    data: {
+        message: "Hello Vuejs - App"
+    },
+    delimiters: ['[[',']]'] //IMPORTANTE PARA NÃO INTERFERIR NO JINJA2
+})
+</script>
+
+<script>
+var app = new Vue({
+    el: '#app1',
+    data: {
+        message: "Hello Vuejs - App"
+    },
+    delimiters: ['[[',']]'] //IMPORTANTE PARA NÃO INTERFERIR NO JINJA2
+})
+</script>
+
+
+{%endblock%}
