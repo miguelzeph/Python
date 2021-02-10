@@ -14,7 +14,6 @@ from random import randrange
 class UniqueID():
     """
     Generate a Unique ID
-
     - You can choose the length
     - You can choose if have number or not
     """
