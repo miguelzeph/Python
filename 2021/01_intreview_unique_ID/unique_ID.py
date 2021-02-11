@@ -89,7 +89,4 @@ def get_unique_id(length_id, numbers_id, upper_lower_id):
 
 
 # Testing
-print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='both'))
-print(get_unique_id(length_id = 10,numbers_id = False, upper_lower_id='both'))
-print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='lower'))
-print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='upper'))
+print(get_unique_id(length_id = 100,numbers_id = True, upper_lower_id='lower'))
