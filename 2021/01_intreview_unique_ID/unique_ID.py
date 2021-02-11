@@ -18,20 +18,24 @@ class UniqueID():
     - You can choose if have number or not
     """
 
-    #excluded characteres
-    excluded_chars = ":*^`\",.~;%+-'?!@#$%¨&()-_+={[}]><\/"
+    #-----------------excluded characteres--------------------
+    excluded_chars = ",.~;:*^`\"%+-'?!@#$%¨&()-_+={[}]><\/"
     excluded_numbers = "0123456789"
+    #---------------------------------------------------------
 
 
 
-    def __init__(self,length, numbers):
+    def __init__(self,length, numbers, upper_lower='both'):
         """
-        Constrctor Method
+        Constrctor Arguments:
         :length: - defines length of unique ID.
         :numbers: - defines if you wanna excluded the numbers (True/False).
+        :upper_lower: define the character lower or upper ("both","upper","lower")
         """
         self.length = length
-        self.numbers = numbers # true or false
+        self.numbers = numbers # True or False
+        self.upper_lower = upper_lower
+
     
 
     def get_random_number(self):
@@ -39,6 +43,8 @@ class UniqueID():
         Method returns random number between 48 - 122
         """
         return randrange(48,122+1)
+
+    
     
     def generate_id(self):
         """
@@ -46,27 +52,43 @@ class UniqueID():
         """
         unique_id = ""
 
-
         while len(unique_id) < self.length:
+
             characteres = chr(self.get_random_number())
+
             if self.numbers:
                 if characteres not in self.excluded_chars:
-                    unique_id += characteres
+                    if self.upper_lower == 'both':
+                        unique_id += characteres
+                    elif self.upper_lower == 'upper':
+                        unique_id += characteres.upper()
+                    elif self.upper_lower == 'lower':
+                        unique_id += characteres.lower()
+
             else:
                 if characteres not in self.excluded_chars and characteres not in self.excluded_numbers:
-                    unique_id += characteres
+                    if self.upper_lower == 'both':
+                        unique_id += characteres
+                    elif self.upper_lower == 'upper':
+                        unique_id += characteres.upper()
+                    elif self.upper_lower == 'lower':
+                        unique_id += characteres.lower()
+            
+
         return unique_id
 
 # Function to call my class and construct my object
-def get_unique_id(length_id, numbers_id):
+def get_unique_id(length_id, numbers_id, upper_lower_id):
     """
     Function returns unique ID.
     """
-    unique_id = UniqueID(length=length_id, numbers=numbers_id)
+    unique_id = UniqueID(length=length_id, numbers=numbers_id, upper_lower = upper_lower_id)
 
     return unique_id.generate_id()
 
 
-
 # Testing
-print(get_unique_id(length_id = 10,numbers_id = True))
+print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='both'))
+print(get_unique_id(length_id = 10,numbers_id = False, upper_lower_id='both'))
+print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='lower'))
+print(get_unique_id(length_id = 10,numbers_id = True, upper_lower_id='upper'))
