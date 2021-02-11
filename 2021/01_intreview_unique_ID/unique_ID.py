@@ -6,8 +6,8 @@ However, there are some characteres like &*$... that need to be excluded
 draw a number (bettween 48 to 122)
 n = random range (48,122 + 1)
 
-# After that, I need to change the number to its respective characters using chr()
-chr (n)
+# After that, I need to change the number to its respective 
+characters using chr(n)
 """
 
 from random import randrange
@@ -16,6 +16,7 @@ class UniqueID():
     Generate a Unique ID
     - You can choose the length
     - You can choose if have number or not
+    - You can choose if have uppercase or lowercase characters
     """
 
     #-----------------excluded characteres--------------------
